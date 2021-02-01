@@ -1,0 +1,4 @@
+def maximum_keys(dic):
+    maximum = max(dic.values())
+    keys = filter(lambda x:dic[x] == maximum,dic.keys())
+    return keys,maximum
